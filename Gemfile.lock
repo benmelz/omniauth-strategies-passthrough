@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    OmniAuth-strategies-passthrough (0.1.0)
+    omniauth-strategies-passthrough (0.1.0)
       omniauth (>= 1.9, < 2)
 
 GEM
@@ -85,8 +85,8 @@ PLATFORMS
   arm64-darwin-22
 
 DEPENDENCIES
-  OmniAuth-strategies-passthrough!
   appraisal
+  omniauth-strategies-passthrough!
   rack
   rack-test
   rake

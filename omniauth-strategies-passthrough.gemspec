@@ -3,7 +3,7 @@
 require_relative 'lib/omniauth/strategies/passthrough/version'
 
 Gem::Specification.new do |spec|
-  spec.name = 'OmniAuth-strategies-passthrough'
+  spec.name = 'omniauth-strategies-passthrough'
   spec.summary = 'An OmniAuth strategy that passes request params straight through the middleware.'
   spec.description = <<~DESCRIPTION.tr("\n", ' ')
     This strategy allows you to pass auth hash values directly to an auth endpoint and forwards them directly to your
