@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    omniauth-strategies-passthrough (0.1.0)
+    omniauth-strategies-passthrough (1.0.0)
       omniauth (>= 1.9, < 2)
 
 GEM
@@ -83,6 +83,7 @@ GEM
 
 PLATFORMS
   arm64-darwin-22
+  x86_64-linux
 
 DEPENDENCIES
   appraisal
