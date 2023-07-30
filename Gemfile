@@ -4,6 +4,7 @@ source 'https://rubygems.org'
 
 gemspec
 
+gem 'appraisal'
 gem 'rake'
 gem 'rspec'
 gem 'rubocop'
