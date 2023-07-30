@@ -26,6 +26,8 @@ GEM
       racc
     racc (1.7.1)
     rack (2.2.7)
+    rack-test (2.1.0)
+      rack (>= 1.3)
     rainbow (3.1.1)
     rake (13.0.6)
     regexp_parser (2.8.1)
@@ -85,6 +87,8 @@ PLATFORMS
 DEPENDENCIES
   OmniAuth-strategies-passthrough!
   appraisal
+  rack
+  rack-test
   rake
   rspec
   rubocop

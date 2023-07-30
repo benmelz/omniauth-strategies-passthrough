@@ -2,7 +2,7 @@
 
 module OmniAuth
   module Strategies
-    module Passthrough
+    class Passthrough
       VERSION = '0.1.0'
     end
   end

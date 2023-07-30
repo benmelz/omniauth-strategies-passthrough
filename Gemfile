@@ -5,6 +5,8 @@ source 'https://rubygems.org'
 gemspec
 
 gem 'appraisal'
+gem 'rack'
+gem 'rack-test'
 gem 'rake'
 gem 'rspec'
 gem 'rubocop'
