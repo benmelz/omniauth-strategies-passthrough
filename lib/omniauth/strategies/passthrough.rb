@@ -2,7 +2,7 @@
 
 require_relative "passthrough/version"
 
-module Omniauth
+module OmniAuth
   module Strategies
     module Passthrough
       class Error < StandardError; end

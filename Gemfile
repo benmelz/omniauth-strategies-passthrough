@@ -2,7 +2,7 @@
 
 source "https://rubygems.org"
 
-# Specify your gem's dependencies in omniauth-strategies-passthrough.gemspec
+# Specify your gem's dependencies in OmniAuth-strategies-passthrough.gemspec
 gemspec
 
 gem "rake", "~> 13.0"
