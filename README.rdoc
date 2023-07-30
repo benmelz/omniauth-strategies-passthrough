@@ -18,14 +18,8 @@ If bundler is not being used to manage dependencies, install the gem by executin
 
 == Usage
 
-Within your omniauth initializer, include the passthrough strategy in development/test environments.
-*NEVER* use this strategy in a production environment.
-
-  Rails.application.config.middleware.use OmniAuth::Builder do
-    ...
-    provider :passthrough unless Rails.env.production?
-    ...
-  end
+Include the <tt>passthrough</tt> strategy in development/test environments as you would with any other OmniAuth
+strategy. *NEVER* use it in a production environment.
 
 Once included, any POST request to <tt>/auth/passthrough</tt> will pass through any <tt>uid</tt> and <tt>info</tt>
 params to your omniauth callback.
