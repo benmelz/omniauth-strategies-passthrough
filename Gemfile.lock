@@ -73,8 +73,8 @@ PLATFORMS
 
 DEPENDENCIES
   OmniAuth-strategies-passthrough!
-  rake (~> 13.0)
-  rspec (~> 3.0)
+  rake
+  rspec
   rubocop
   rubocop-performance
   rubocop-rake
