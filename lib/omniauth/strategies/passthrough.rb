@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-require_relative "passthrough/version"
+require_relative 'passthrough/version'
 
 module OmniAuth
   module Strategies

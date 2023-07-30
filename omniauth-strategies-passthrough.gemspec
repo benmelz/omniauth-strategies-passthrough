@@ -5,8 +5,7 @@ require_relative 'lib/omniauth/strategies/passthrough/version'
 Gem::Specification.new do |spec|
   spec.name = 'OmniAuth-strategies-passthrough'
   spec.summary = 'A development OmniAuth strategy that passes POST request params through to OAuth callbacks.'
-  spec.description = <<~DESCRIPTION.tr("\n", ' ') # TODO
-  DESCRIPTION
+  spec.description = ''.tr("\n", ' ') # TODO
   spec.license = 'MIT'
   spec.author = 'Benjamin Melz'
   spec.email = ['ben@melz.me']

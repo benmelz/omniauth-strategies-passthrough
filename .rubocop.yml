@@ -1,13 +1,15 @@
+require:
+  - rubocop-performance
+  - rubocop-rake
+  - rubocop-rspec
+
 AllCops:
-  TargetRubyVersion: 2.6
+  Exclude:
+    - bin/rake
+    - gemfiles/**/*
+  NewCops: enable
+  TargetRubyVersion: 3.0
 
-Style/StringLiterals:
-  Enabled: true
-  EnforcedStyle: double_quotes
-
-Style/StringLiteralsInInterpolation:
-  Enabled: true
-  EnforcedStyle: double_quotes
-
-Layout/LineLength:
-  Max: 120
+RSpec/FilePath:
+  CustomTransform:
+    OmniAuth: omniauth
