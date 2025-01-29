@@ -8,7 +8,7 @@ AllCops:
     - bin/rake
     - gemfiles/**/*
   NewCops: enable
-  TargetRubyVersion: 3.0
+  TargetRubyVersion: 3.2
 
 RSpec/FilePath:
   Enabled: false

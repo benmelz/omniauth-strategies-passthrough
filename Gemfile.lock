@@ -90,8 +90,7 @@ GEM
     unicode-display_width (2.5.0)
 
 PLATFORMS
-  arm64-darwin-22
-  x86_64-linux
+  ruby
 
 DEPENDENCIES
   appraisal
@@ -107,4 +106,4 @@ DEPENDENCIES
   simplecov
 
 BUNDLED WITH
-   2.4.17
+   2.6.3
