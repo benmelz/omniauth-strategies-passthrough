@@ -2,20 +2,26 @@
 
 require 'omniauth/strategies/passthrough'
 require 'rack'
+require 'rack/session'
 require 'rack/test'
 
 RSpec.describe OmniAuth::Strategies::Passthrough do
-  include Rack::Test::Methods
+  it 'defines a version constant' do
+    expect(described_class::VERSION).not_to be_nil
+  end
 
-  let(:app) { Rack::Session::Cookie.new described_class.new(->(_) { [200, {}, ''] }), secret: 'test' }
+  describe 'POSTing to the callback endpoint' do
+    include Rack::Test::Methods
 
-  describe 'POST /auth/passthrough' do
     subject(:authenticate) do
       post '/auth/passthrough', params
       follow_redirect!
     end
 
+    let(:app) { Rack::Session::Cookie.new described_class.new(->(_) { [200, {}, ''] }), secret: 'test' * 16 }
     let(:auth) { last_request.env['omniauth.auth'] }
+
+    before { allow(OmniAuth.config).to receive(:request_validation_phase).and_return(nil) }
 
     context 'without auth params' do
       let(:params) { {} }

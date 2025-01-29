@@ -6,6 +6,7 @@ gemspec
 
 gem 'appraisal'
 gem 'rack'
+gem 'rack-session'
 gem 'rack-test'
 gem 'rake'
 gem 'rspec'
