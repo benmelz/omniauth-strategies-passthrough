@@ -1,3 +1,15 @@
+# [2.0.0](https://github.com/benmelz/omniauth-strategies-passthrough/compare/v1.0.1...v2.0.0) (2025-01-29)
+
+
+### chore
+
+* **deps:** bump required ruby version ([#78](https://github.com/benmelz/omniauth-strategies-passthrough/issues/78)) ([3225a65](https://github.com/benmelz/omniauth-strategies-passthrough/commit/3225a650d5f3929f37e39cc41c86362a281a8eeb))
+
+
+### BREAKING CHANGES
+
+* **deps:** Ruby versions below 3.2 are no longer supported.
+
 ## [1.0.1](https://github.com/benmelz/omniauth-strategies-passthrough/compare/v1.0.0...v1.0.1) (2023-07-30)
 
 

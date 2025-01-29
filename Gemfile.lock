@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    omniauth-strategies-passthrough (1.0.1)
+    omniauth-strategies-passthrough (2.0.0)
       omniauth (>= 1.9, < 3)
 
 GEM
