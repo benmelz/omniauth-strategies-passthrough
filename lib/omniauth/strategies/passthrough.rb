@@ -1,6 +1,7 @@
 # frozen_string_literal: true
 
 require 'omniauth'
+require 'rack/utils'
 require_relative 'passthrough/version'
 
 module OmniAuth
