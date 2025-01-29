@@ -23,6 +23,6 @@ Gem::Specification.new do |spec|
   spec.require_path = 'lib'
 
   spec.version = OmniAuth::Strategies::Passthrough::VERSION
-  spec.required_ruby_version = '>= 3.0'
+  spec.required_ruby_version = '>= 3.2'
   spec.add_dependency 'omniauth', '>= 1.9', '< 3'
 end
