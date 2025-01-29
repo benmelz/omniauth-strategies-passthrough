@@ -10,9 +10,6 @@ AllCops:
   NewCops: enable
   TargetRubyVersion: 3.2
 
-RSpec/FilePath:
-  Enabled: false
-
 RSpec/SpecFilePathFormat:
   CustomTransform:
     OmniAuth: omniauth
