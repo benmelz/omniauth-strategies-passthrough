@@ -6,10 +6,6 @@ require 'rack/session'
 require 'rack/test'
 
 RSpec.describe OmniAuth::Strategies::Passthrough do
-  it 'defines a version constant' do
-    expect(described_class::VERSION).not_to be_nil
-  end
-
   describe 'POSTing to the callback endpoint' do
     include Rack::Test::Methods
 

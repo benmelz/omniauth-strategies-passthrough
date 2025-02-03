@@ -2,4 +2,4 @@
 /gemfiles/
 /pkg/
 /.rspec_status
-/omniauth-strategies-passthrough-*.gem
+/omniauth-passthrough-*.gem

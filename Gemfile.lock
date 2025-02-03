@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    omniauth-strategies-passthrough (2.0.0)
+    omniauth-passthrough (2.0.0)
       omniauth (>= 1.9, < 3)
 
 GEM
@@ -90,7 +90,7 @@ PLATFORMS
 
 DEPENDENCIES
   appraisal
-  omniauth-strategies-passthrough!
+  omniauth-passthrough!
   rack
   rack-session
   rack-test
