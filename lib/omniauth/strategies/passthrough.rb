@@ -5,6 +5,7 @@ require 'rack/utils'
 
 module OmniAuth
   module Strategies
+    # :nodoc:
     class Passthrough
       include OmniAuth::Strategy
 
