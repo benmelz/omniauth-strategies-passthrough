@@ -1,4 +1,4 @@
-= <tt>omniauth-strategies-passthrough</tt>
+= <tt>omniauth-passthrough</tt>
 
 An OmniAuth strategy that passes request params straight through the middleware.
 
@@ -10,11 +10,11 @@ environments while still utilizing your OmniAuth callback(s).
 
 Install the gem and add to the application's Gemfile by executing:
 
-  bundle add omniauth-strategies-passthrough
+  bundle add omniauth-passthrough
 
 If bundler is not being used to manage dependencies, install the gem by executing:
 
-  gem install omniauth-strategies-passthrough
+  gem install omniauth-passthrough
 
 == Usage
 
@@ -43,7 +43,7 @@ params to your omniauth callback.
 
 == Contributing
 
-Bug reports and pull requests are welcome on {GitHub}[https://github.com/benmelz/omniauth-strategies-passthrough].
+Bug reports and pull requests are welcome on {GitHub}[https://github.com/benmelz/omniauth-passthrough].
 
 == License
 

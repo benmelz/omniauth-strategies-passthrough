@@ -2,11 +2,9 @@
 
 require 'omniauth'
 require 'rack/utils'
-require_relative 'passthrough/version'
 
 module OmniAuth
   module Strategies
-    # :include: README.rdoc
     class Passthrough
       include OmniAuth::Strategy
 

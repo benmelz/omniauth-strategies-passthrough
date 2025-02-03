@@ -1,9 +1,8 @@
 # frozen_string_literal: true
 
+require_relative 'strategies/passthrough'
+
 module OmniAuth
   module Strategies
-    class Passthrough
-      VERSION = '2.0.0'
-    end
   end
 end
